@@ -1,0 +1,40 @@
+# Ignore everything
+*
+
+# But don't ignore game.c
+!game.c
+
+# Don't ignore this .gitignore file itself
+!.gitignore
+
+# Optional: You might want to keep README files
+!README*
+!readme*
+!.gitignore
+
+# Optional: Keep other source files if needed
+!*.c
+!*.h
+
+# Specifically exclude compiled files
+game.exe
+*.exe
+*.o
+*.obj
+
+# Exclude backup files
+*~
+*.bak
+
+# Exclude IDE files
+.vscode/
+*.code-workspace
+
+# Exclude archive files
+*.rar
+*.zip
+*.7z
+
+# Exclude PDF and text files
+*.pdf
+*.txt
